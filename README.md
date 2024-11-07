@@ -6,9 +6,16 @@
 
 ![](./image/1.gif)
 
+------------------
+
 <p align="center">
   <img src="./image/3.jpg" alt="原图" width="500"/>
+  <br>
+  <span>原图</span>
+  <br>
   <img src="./image/2.png" alt="输出图" width="500"/>
+  <br>
+  <span>输出图</span>
 </p>
 
 
