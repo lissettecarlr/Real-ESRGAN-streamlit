@@ -1,8 +1,8 @@
 # Real-ESRGAN-streamlit
 
-基于[Real-ESRGAN-streamlit](https://github.com/xinntao/Real-ESRGAN)的web交互图片超分辨率工具。
+基于[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)的web交互图片超分辨率工具。
 
-## 效果
+## 1 效果
 
 ![](./image/1.gif)
 
@@ -19,7 +19,7 @@
 </p>
 
 
-## 安装
+## 2 安装
 
 * python3.10
 ```bash
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python setup.py develop
 ```
 
-## 模型
+## 3 模型
 
 存放在`./weights`下
 
@@ -44,7 +44,7 @@ python setup.py develop
 * [RealESRGAN_x4plus_anime_6B](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth)：针对动漫图像进行了优化
 
 
-## 使用
+## 4 使用
 
 ```bash
 streamlit run web.py
